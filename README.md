@@ -21,7 +21,7 @@ name.show();
 `
 name.css({
   'color': 'red',
-  'background': 'green'
+  'background': 'green',
 });
 `
 

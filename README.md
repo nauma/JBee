@@ -27,32 +27,24 @@ name.css({
 
 ##### Set and Get element text
 `
-
-name.text('Hello Roman!');
-
+name.text('Hello Roman!')
 console.log(name.text());
 // Hello Roman!
-
 `
 
 ##### Set and Get input element value
 `
-
 var setName = jb('#setName')
 setName.value('Nikolay')
-
 console.log(name.value());
 // Nikolay
-
 `
 
 ##### Window onload
 `
-
 jb(function() {
   // code here
 });
-
 `
 
 ##### Events

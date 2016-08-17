@@ -21,6 +21,7 @@ name.css({
   'background': 'green'
 });
 `
+
 ##### Set/Get element text
 `
 name.text('Hello Roman!');
@@ -28,6 +29,7 @@ name.text('Hello Roman!');
 console.log(name.text());
 // Hello Roman!
 `
+
 ##### Set/Get input element value
 `
 var setName = jb('#setName')
@@ -36,12 +38,14 @@ setName.value('Nikolay')
 console.log(name.value());
 // Nikolay
 `
+
 ##### Window onload
 `
 jb(function() {
   // code here
 });
 `
+
 ##### Events
 `
 name.on('click', function() {

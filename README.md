@@ -19,9 +19,9 @@ name.show();
 
 ##### Append css style
 `
-name.css({
-  'color': 'red',
-  'background': 'green'
+name.css({  
+  'color': 'red',  
+  'background': 'green'  
 });
 `
 
@@ -34,9 +34,9 @@ console.log(name.text());
 
 ##### Set and Get input element value
 `
-var setName = jb('#setName')
-setName.value('Nikolay')
-console.log(name.value());
+var setName = jb('#setName')  
+setName.value('Nikolay')  
+console.log(name.value());  
 // Nikolay
 `
 

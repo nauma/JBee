@@ -2,30 +2,30 @@
 JBee - frameform Client-side scripting of HTML
 
 ## GetStarted
-##### Create JBee object
+Create JBee object
 `
 var name = jb('#name');
 `
 
-##### Hide element
+Hide element
 `
 name.hide();
 `
 
-##### Show element
+Show element
 `
 name.show();
 `
 
-##### Append css style
+Append css style
 `
 name.css({
   'color': 'red',
-  'background': 'green',
+  'background': 'green'
 });
 `
 
-##### Set and Get element text
+Set and Get element text
 `
 name.text('Hello Roman!');
 
@@ -33,7 +33,7 @@ console.log(name.text());
 // Hello Roman!
 `
 
-##### Set and Get input element value
+Set and Get input element value
 `
 var setName = jb('#setName')
 setName.value('Nikolay')
@@ -42,7 +42,7 @@ console.log(name.value());
 // Nikolay
 `
 
-##### Window onload
+Window onload
 `
 jb(function() {
   // code here

@@ -6,14 +6,17 @@ JBee - frameform Client-side scripting of HTML
 `
 var name = jb('#name');
 `
+
 ##### Hide element
 `
 name.hide();
 `
+
 ##### Show element
 `
 name.show();
 `
+
 ##### Append css style
 `
 name.css({
@@ -22,7 +25,7 @@ name.css({
 });
 `
 
-##### Set/Get element text
+##### Set and Get element text
 `
 name.text('Hello Roman!');
 
@@ -30,7 +33,7 @@ console.log(name.text());
 // Hello Roman!
 `
 
-##### Set/Get input element value
+##### Set and Get input element value
 `
 var setName = jb('#setName')
 setName.value('Nikolay')

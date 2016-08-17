@@ -1,0 +1,18 @@
+{
+  "name": "jbee",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp default"
+  },
+  "author": "nauma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-watch": "^4.3.9",
+    "gulp-webserver": "^0.9.1"
+  }
+}

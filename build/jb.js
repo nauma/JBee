@@ -142,4 +142,12 @@ class JBee {
     }
     return this;
   }
+
+  attr(name, value) {
+    if (value === undefined) {
+      this.element.getAttribute(name);
+    } else {
+      this.element.setAttribute(name, value);
+    }
+  }
 }

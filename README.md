@@ -54,3 +54,8 @@ name.on('click', function() {
   alert('Hello!');
 });
 ```
+
+##### Add newattributes
+```
+name.attr('data-bind', 'App')
+```

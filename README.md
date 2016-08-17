@@ -1,5 +1,5 @@
 # JBee
-JBee - frameform Client-side scripting of HTML
+JBee - framework Client-side scripting of HTML
 
 ## GetStarted
 ##### Create JBee object
